@@ -120,6 +120,8 @@ with open('file.txt', 'r') as file:
       good_list.add_good_in_list(Good(name, price, count))
       good_list.get_mean_price()
 
+
+print("Привет, я программа для работы с товарами")
 info_str = str(good_list)
 print(info_str)
 print(good_list == good_list_second)
